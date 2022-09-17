@@ -1,0 +1,608 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+
+.btn {
+  border-radius: 50px !important;
+  transition: all 0.5s ease;
+  background-color: #183661 !important;
+  border: none;
+  padding: 5px 25px;
+}
+
+#top-header {
+  display: block;
+  background-color: #ecf3fc;
+  text-align: center;
+}
+
+#phone,
+#email,
+#order-section {
+  display: inline-flex;
+}
+
+#phone a {
+  color: #183661;
+  font-size: 17px;
+  padding-left: 10px;
+}
+#phone a:hover {
+  text-decoration: underline;
+}
+
+#phone img {
+  height: 25px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+}
+
+.social-icons a i {
+  font-size: 30px;
+  color: #183661;
+  transition: all 0.4s ease;
+}
+
+.social-icons a i:hover {
+  color: #ffc107;
+}
+
+#time {
+  color: #183661;
+}
+
+/* Lower Header */
+
+#email img {
+  height: 100%;
+}
+
+#lower-header {
+  align-items: center;
+}
+
+#lower-header .row {
+  align-items: center;
+}
+
+#lower-header .col-lg-4 {
+  text-align: center;
+  line-height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#email {
+  align-items: center;
+}
+
+#email img,
+#order-section #cart img {
+  margin-right: 30px;
+}
+
+#order-section .btn:hover {
+  background-color: #ffc107 !important;
+}
+
+#email a {
+  color: #183661;
+  font-size: 17px;
+}
+
+#email a:hover {
+  text-decoration: underline;
+}
+
+/* NavBar */
+.navbar {
+  background-color: #183661;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .nav-toggler,
+.navbar-toggler-icon {
+  color: #ffff !important;
+  border: none;
+}
+
+.navbar-toggler-icon i {
+  font-size: 1.2em;
+}
+
+.navbar .container-fluid {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.nav-item {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-item .active {
+  background-color: #ffc107;
+}
+
+.nav-item a {
+  color: #ffff !important;
+  padding: 0 20px !important;
+  height: 80px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  transition: all 0.5 ease;
+}
+
+.nav-item a:hover {
+  background-color: #ffc107;
+}
+
+.nav .search {
+  margin-right: 50px;
+  position: relative;
+}
+
+.search input {
+  min-width: 17em !important;
+  border-radius: 50px;
+}
+
+#search-icon {
+  position: relative;
+  top: 0;
+  right: 0;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+#search-icon i {
+  color: #ffff;
+  font-size: 1.2em;
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+
+/* Carousel */
+
+.carousel-item .item {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+}
+
+.carousel-item .col_1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.carousel-item .h2 {
+  font-size: 6em;
+  color: #183661;
+  font-weight: 600;
+}
+
+.carousel-item .h1 {
+  color: #ffc107;
+  font-size: 7em;
+}
+
+.carousel-item .h3 {
+  font-size: 2em;
+  color: #2a2a2c;
+}
+
+.carousel-item .btn {
+  font-size: 1.2em;
+  background-color: #26589e !important;
+  padding: 10px 30px !important;
+  font-weight: 500;
+  color: #ffffff;
+  border: none;
+  margin-top: 2em;
+}
+
+.carousel-item .btn:hover {
+  background-color: #ffc107 !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 2% !important;
+}
+
+.carousel-control-prev {
+  margin-left: 20px;
+}
+.carousel-control-next {
+  margin-right: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #183661;
+  border-radius: 50px;
+}
+
+/*Category Section*/
+
+#category .cat {
+  padding: 45px 0;
+  text-align: center;
+}
+
+#category .bg-y {
+  background-color: #ffc107;
+}
+
+#category .bg-b {
+  background-color: #183661;
+}
+
+#category .cat p {
+  color: #ffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/*Products Section*/
+#products {
+  background-image: url("../images/product_bg.jpg");
+  margin: 0 50px;
+}
+
+.heading h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.heading {
+  margin-bottom: 40px;
+}
+
+.heading h5 {
+  margin-top: 15px 0;
+  height: 4px;
+  background-color: #ffc107;
+}
+
+.product-item .background {
+  background-color: #f2f2f2;
+  height: 257px;
+  display: flex;
+  padding: 0 30px;
+  margin: 0 !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+}
+.product-item h3 {
+  font-size: 15px;
+  color: #1c1c1b;
+  padding-top: 10px;
+  margin: 0 !important;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.seeMore-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.seeMore-btn .btn:hover {
+  background-color: #ffc107 !important;
+}
+
+/* Banner Section */
+#banner {
+  margin-top: 50px;
+}
+
+#banner img {
+  width: 100%;
+}
+
+/* News Section */
+#news-list img {
+  max-width: 100%;
+}
+
+#news-list .content-box h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.content-box {
+  font-size: 15px;
+}
+
+.content-box .like-comm a,
+.content-box .date p {
+  padding: 2px 10px;
+  color: #141414;
+  border-bottom: 1px solid #ffc107;
+}
+
+.content-box .like-comm a:hover {
+  color: #ffc107;
+}
+
+/*Subscribe Newsletter Section*/
+#subscribe h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#subscribe input {
+  border-radius: 50px;
+  outline: none !important;
+  border: 1px solid #183661 !important;
+  padding: 5px 20px;
+  max-width: 25em;
+}
+#subscribe input:focus {
+  box-shadow: 0 0 5px #26589e;
+}
+
+#subscribe button {
+  padding: 5px auto;
+}
+
+#subscribe button:hover {
+  background-color: #ffc107 !important;
+}
+
+/* Features Box section */
+#features {
+  margin-bottom: -80px;
+}
+
+#features .gift-box {
+  background-color: #ffff;
+  box-shadow: 0 0 10px #868686;
+  border-radius: 20px;
+}
+#features .gift-box p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #2a2a2c;
+}
+
+/* Footer Section */
+footer {
+  background-color: #183661;
+  padding-top: 150px;
+}
+
+footer .content {
+  color: #ffff;
+}
+
+footer .content h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+footer .content p {
+  font-weight: 400;
+  line-height: 32px;
+  padding-right: 20px;
+}
+
+/* Copy Right Section */
+#copy-right p {
+  font-size: 17px;
+}
+#copy-right p a {
+  color: #ffc107;
+}
+#copy-right p a:hover {
+  color: #daaa1c;
+}
+
+/*Responsive*/
+@media screen and (max-width: 770px) {
+  #top-header,
+  #lower-header #email,
+  #order-section {
+    display: none;
+  }
+
+  /* Nav Bar  */
+
+  .nav-item a {
+    max-width: 17em;
+    letter-spacing: 3px;
+  }
+
+  .nav-item a:hover {
+    background: none !important;
+    color: #ffc107 !important;
+  }
+  #search-container {
+    margin: 10px 0;
+  }
+
+  .search input {
+    min-width: 15em !important;
+  }
+
+  /*Carousel*/
+
+  .carousel-item .h2 {
+    font-size: 3em;
+  }
+
+  .carousel-item .h1 {
+    font-size: 3em !important;
+  }
+
+  .carousel-item .col_1 {
+    padding-top: 100px;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /*News Section*/
+  #news-list .img img {
+    max-width: 100%;
+  }
+
+  #news-list .content-box {
+    padding: 0 20px !important;
+  }
+
+  #news-list .content-box h3 {
+    font-size: 22px !important;
+    margin-bottom: 0;
+  }
+
+  #news-list .content {
+    font-size: 17px;
+  }
+
+  /*Products Section*/
+
+  .heading h2 {
+    font-size: 35px;
+  }
+
+  .product-item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  /*Subscribe*/
+  #subscribe button {
+    margin-top: 7px;
+  }
+
+  #subscribe h3 {
+    font-size: 1.5em;
+  }
+  /* Copy Right */
+
+  #copy-right p {
+    font-size: 14px;
+  }
+  /* Other Pages */
+
+  .top-txt h2 {
+    font-size: 30px !important;
+  }
+}
+
+/* Width 990px Responsive */
+@media screen and (max-width: 990px) {
+  /* Navbar */
+
+  .nav-item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav form {
+    position: absolute;
+  }
+
+  .nav form input {
+    display: block;
+    width: 100%;
+  }
+
+  #search-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* News Section */
+  #news-list .content-box h3 {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  .content-box {
+    font-size: 13px;
+  }
+
+  .content-box .date p {
+    padding: 2px 5px;
+  }
+}
+
+/* Other Pages */
+
+/*About US Page*/
+.top-txt {
+  background-color: #f8ba00;
+  color: #ffff;
+}
+.top-txt h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#about .content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #183661;
+}
+
+#about .content p {
+  margin: 20px 0;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#about .content a {
+  padding: 10px 20px;
+}
+
+#about .content a:hover {
+  background-color: #ffc107 !important;
+}
+
+#about .img img {
+  width: 90%;
+}
+
+/* Contact Page */
+#contact form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #868686;
+  box-shadow: 0 0 3px #f8ba00;
+  font-size: 17px;
+}
+
+#contact form input:focus {
+  box-shadow: 0 0 10px #f8ba00;
+  outline: none !important;
+}
+
+#contact form .btn {
+  padding: 10px 0;
+  width: 25%;
+  font-size: 18px;
+}
+#contact form .btn:hover {
+  background-color: #f8ba00 !important;
+}
